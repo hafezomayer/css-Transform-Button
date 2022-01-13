@@ -1,0 +1,118 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+
+
+
+.main-box
+{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+    cursor: cell;
+    position: relative;
+    top: 30px
+
+
+}
+
+.main-box .overlay-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   background-color: lime;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 1.50s all;
+
+}
+
+
+
+
+
+
+
+
+
+.main-box .overlay-1
+{
+    transform: translateX(200px);
+}
+
+
+.main-box .overlay-2
+{
+    transform: translateX(200px);
+}
+
+
+.main-box .overlay-3
+{
+    transform: translateY(-200px);
+}
+
+.main-box .overlay-4
+{
+    transform: translateY(200px);
+}
+
+
+
+.main-box:hover .overlay-1
+{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.main-box:hover .overlay-2
+{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+
+.main-box:hover .overlay-3
+{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.main-box:hover .overlay-4
+{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+
+
+
+body h3
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+}
